@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #026a90;
+  --primary-color: #0282b1;
   --secondary-color: lightgray;
 }
 
@@ -16,8 +16,14 @@ body {
 header {
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   background-color: var(--primary-color);
+}
+
+header h1 {
+  color: #fff;
+  margin-right: 2rem;
 }
 
 .search {
